@@ -1,0 +1,131 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace LibreriaHelper
+{
+    /// <summary>
+    /// Clase para declarar las constantes a usar en las variables de session y mantener 
+    /// registro de que cariable se ah agregado.
+    /// </summary>
+    public abstract class Constante
+    {
+
+        
+         #region Mandar Mails desde La app
+        public const string CorreoDefault = "CorreoDefault";
+        public const string ServidorCorreoHost = "ServidorCorreoHost";
+        public const string ServidorCorreoHostUSR = "ServidorCorreoHostUSR";
+        public const string ServidorCorreoHostPWD = "ServidorCorreoHostPWD";
+        public const string ServidorCorreoFrom = "ServidorCorreoFrom";
+   
+
+        #endregion
+
+
+        #region Login Cliente
+        public const string loginClienteEmpId = "IdEmpresa";
+        public const string loginUsuarioId = "IdUsuario";
+        public const string loginUsuarioBase = "Base";
+        public const string loginUsuarioPerfil = "Perfil";
+        public const string loginUsuarioPerfilOpciones = "PerfilOpciones";
+        public const string loginUsuarioIdBase = "IdBase";
+        public const string loginUsuarioIdTrabajador = "IdTrabajadorLigado";
+        public const string loginUsuarioNombreTrabajador = "NombreTrabajadorLigado";
+        public const string loginUsuarioCodigoBase = "CodigoBase";
+        public const string loginUsuarioNotificar = "Notificar";
+        public const string idTicketSoporte = "idTicketSoporte";
+        public const string idTicketExcepciones = "idTicketExcepciones";
+        public const string idProyecto = "IdProyecto";
+        public const string UltimoAcceso = "UltimoAcceso";
+        public const string FechaVigencia = "FechaVigencia";
+        public const string Email = "Email";
+        public const string CorreoRespaldo = "CorreoRespaldo";
+        public const string Almacen = "Almacen";        
+
+        public const string screenWidth = "screenWidth";
+        public const string screenHeight = "screenHeight";
+        public const string PuedeAgregarTramos = "PuedeAgregarTramos";
+        public const string loginUsuarioPuedeModificarComprobacion = "PuedeModificarComprobacion";
+        public const string loginUsuarioToken = "Token";
+
+
+        public const string ALMACEN_USUARIO= "ALMACEN_USUARIO";
+        public const string BASEOPERADOR_ID	 = "BASEOPERADOR_ID";
+        public const string BASEOPERADOR_NOMBRE	 = "BASEOPERADOR_NOMBRE";
+        public const string BASEOPERADOR_CODIGO	 = "BASEOPERADOR_CODIGO";
+
+ 
+ 
+        #endregion
+
+
+
+        #region Login Empleado
+        public const string loginEmpleadoId = "IdEmpleado";
+        #endregion
+
+        #region   mas login
+        public const string loginUsuarioNombre = "NombreCorto";
+        public const string loginUsuarioNombreCompleto = "NombreCompleto";
+
+        public const string loginMsgNoAutorizado = "No estás autorizado, <br /> favor de verificar con el administrador.";
+        public const string loginMenuXMLString = "XmlMenuString";
+        #endregion
+
+        #region Parametros Empleado RAINDE
+        public const string IdEmpresaParam = "IdEmpresaParam";
+        public const string IdActivoMovilParam = "IdActivoMovil";
+        public const string NomActivoNoEconomico = "ActivoNumEconomico";
+        #endregion
+
+        #region referenciaGeografica para obtener distancia
+        //Mi norte:
+        public const double NLat = 69.193799764619;
+        public const double NLong = -102.299194335938;
+
+        //Mi sur 
+        public const double SLat = -56.2677610875758;
+        public const double SLong = -102.299194335938;
+
+        //Mi Este
+        public const double ELat = 21.8869871206816;
+        public const double ELong = -62.490234375;
+
+        //Mi Oeste 
+        public const double OLat = 21.8869871206816;
+        public const double OLong = -135;
+
+
+        #endregion
+
+
+        #region Tamaño Maximo de Imagenes
+        //Mi norte:
+        public const double TamMaxUpload = 2000000;
+
+
+        #endregion
+
+
+        #region Estatus de Ordenes
+
+
+        public const string EstatusConfirmado = "Confirmado";
+        public const string EstatusTerminado = "Terminado";
+        public const string EstatusActivo = "Activo";
+        public const string EstatusAutorizada = "AUTORIZADA";
+        public const string EstatusEnviada = "ENVIADA";
+        public const string EstatusEntregaParcial = "ENTREGA PARCIAL";
+        public const string EstatusFinEntrega = "FIN ENTREGA";
+        public const string EstatusCancelado = "CANCELADO";
+        public const string EstatusEliminado = "ELIMINADO";
+
+
+        #endregion
+
+
+
+    }
+}

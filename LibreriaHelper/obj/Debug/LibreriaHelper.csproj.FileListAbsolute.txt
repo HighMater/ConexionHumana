@@ -1,0 +1,8 @@
+C:\Users\MEXQ216\Documents\conexionhumana\ConexionHumana\LibreriaHelper\bin\Debug\LibreriaHelper.dll
+C:\Users\MEXQ216\Documents\conexionhumana\ConexionHumana\LibreriaHelper\bin\Debug\LibreriaHelper.pdb
+C:\Users\MEXQ216\Documents\conexionhumana\ConexionHumana\LibreriaHelper\obj\Debug\LibreriaHelper.csprojAssemblyReference.cache
+C:\Users\MEXQ216\Documents\conexionhumana\ConexionHumana\LibreriaHelper\obj\Debug\LibreriaHelper.csproj.CoreCompileInputs.cache
+C:\Users\MEXQ216\Documents\conexionhumana\ConexionHumana\LibreriaHelper\obj\Debug\LibreriaHelper.dll
+C:\Users\MEXQ216\Documents\conexionhumana\ConexionHumana\LibreriaHelper\obj\Debug\LibreriaHelper.pdb
+C:\Users\MEXQ216\Documents\conexionhumana\ConexionHumana\LibreriaHelper\bin\Debug\AjaxControlToolkit.dll
+C:\Users\MEXQ216\Documents\conexionhumana\ConexionHumana\LibreriaHelper\obj\Debug\LibreriaHelper.csproj.CopyComplete
